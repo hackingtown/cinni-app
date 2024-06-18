@@ -1,0 +1,33 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "https://chat.hacking.town/",
+    "distDir": "https://chat.hacking.town/",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "cinni",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 1280,
+        "resizable": true,
+        "title": "Chat - hacking.town",
+        "width": 720
+      }
+    ]
+  }
+}
